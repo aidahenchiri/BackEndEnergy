@@ -36,5 +36,4 @@ app.listen(PORT,(error)=>{
 
 app.use('/api/pub',require('./Routes/pubRoutes'))
 app.use('/api/user',require('./Routes/userRoutes'))
-app.use(`/api/movie`,require('./Routes/MovieRoutes'))
 
